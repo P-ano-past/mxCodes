@@ -1,4 +1,20 @@
 .LPC {
-    background-color: antiquewhite;
 
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+}
+
+.BR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devImage {
+    width: 90%;
+    height: 90%;
+    /* border: 1px solid black; */
 }

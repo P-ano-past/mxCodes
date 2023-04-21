@@ -1,0 +1,17 @@
+.navbar {
+    background-color: transparent;
+    /* border: 1px solid black; */
+}
+
+.navbar-nav .nav-link {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navlinkItems {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
