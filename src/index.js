@@ -4,16 +4,16 @@ import "./index.css";
 import App from "./client/App/App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserHistory } from "history";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 export const history = createBrowserHistory();
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter history={history}>
+    <HashRouter history={history}>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
