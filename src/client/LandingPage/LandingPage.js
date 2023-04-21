@@ -1,12 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./LandingPage.css";
-import Navigation from "../Nav/Nav";
 
 function LandingPage() {
   return (
     <Container className="LPC">
-      <Navigation />
       <Container className="banner">
         <Row className="BR">
           <Col>
