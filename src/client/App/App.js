@@ -11,7 +11,7 @@ function App() {
     <Container className="App">
       <Navigation />
       <Routes>
-        <Route exact path="/home" element={<LandingPage />} />
+        <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/about" element={<About />} />
       </Routes>
