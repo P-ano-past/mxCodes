@@ -11,8 +11,8 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="navlinkItems me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="blog">Blog</Nav.Link>
-            <Nav.Link href="about">About Me</Nav.Link>
+            <Nav.Link href="/blog">Blog</Nav.Link>
+            <Nav.Link href="/about">About Me</Nav.Link>
           </Nav>
           <Nav className="ml-auto">
             <Button variant="primary">Contact Me</Button>
