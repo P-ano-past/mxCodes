@@ -4,7 +4,7 @@ import About from "../About/About";
 import Navigation from "../Nav/Nav";
 import "./App.css";
 import { Container } from "react-bootstrap";
-import { Routes, Route } from "react-router";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
