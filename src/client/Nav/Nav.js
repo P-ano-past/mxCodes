@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, Button } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
 import "./Nav.css";
 
@@ -13,9 +13,7 @@ function Navigation() {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="/about">About Me</Nav.Link>
-          </Nav>
-          <Nav className="ml-auto">
-            <Button variant="primary">Contact Me</Button>
+            <Nav.Link href="/contact">Contact Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
